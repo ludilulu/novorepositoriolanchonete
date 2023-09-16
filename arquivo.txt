@@ -1,0 +1,48 @@
+programa{
+	funcao inicio()	{
+		real preco= 0.0, qtd = 0.0
+		inteiro case 
+    			escreva("Lanhonete da Ludimila - versão 1")
+		faca{
+			escreva("\nCardapio \n")
+			escreva("  1 -> X-Salada     R$ 12,00\n")
+			escreva("  2 -> X-Bacon      R$ 15,00\n")
+			escreva("  3 -> X-Egg        R$ 10,00\n")
+      escreva("  4 -> Refrigerante R$ 08,00\n")
+      escreva("  5 -> Finalizar o pedido!\n")
+			escreva("Digite o número do item do seu pedido: ")
+			leia(case)
+			escolha(case){
+				caso 1:
+         escreva("Digite a quantidade: ")
+         			leia(qtd)
+			 		preco=preco+(12.00*qtd)
+			 	pare
+			 	
+			 	caso 2: 
+			 	         escreva("Digite a quantidade: ")
+         			leia(qtd)
+			 		preco=preco+(15.00*qtd)
+			 	pare
+			 	
+			 	caso 3: 
+         escreva("Digite a quantidade: ")
+         			leia(qtd)
+			 		preco=preco+(10.00*qtd)
+			 	pare
+			 				 	caso 4: 
+			 		escreva("Digite a quantidade:")
+              leia(qtd)
+           preco=preco+(08.00*qtd)   
+			 	pare
+        			 	caso 5: 
+			 		escreva("\nO seu pedido ficou no valor de: ",preco)
+          			 		escreva("\nObrigada pela preferecia!")
+			 	pare
+			 	caso contrario:
+	          			 		escreva("*Número incorreto*\n\n")
+			}			 
+		}	enquanto(case != 5)
+		}
+	}
+}
