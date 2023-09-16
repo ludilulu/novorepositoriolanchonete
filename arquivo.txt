@@ -2,7 +2,7 @@ programa{
 	funcao inicio()	{
 		real preco= 0.0, qtd = 0.0
 		inteiro case 
-    			escreva("Lanhonete da Ludimila - versão 1")
+    			escreva("Lanhonete da Ludimila - versão 2")
 		faca{
 			escreva("\nCardapio \n")
 			escreva("  1 -> X-Salada     R$ 12,00\n")
